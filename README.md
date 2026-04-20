@@ -8,20 +8,20 @@
 1. Установлен PostgreSQL
 
 2. Команды с официального сайта Zabbix для установки:  
-```bash  
+```bash
 wget https://repo.zabbix.com/zabbix/7.4/release/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.4+ubuntu24.04_all.deb  
 ```
 
-```bash  
+```bash
 dpkg -i zabbix-release_latest_7.4+ubuntu24.04_all.deb  
 ```
 
-```bash  
+```bash
 apt update  
 ```
 
-```bash  
-apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-nginx-conf zabbix-sql-scriptst
+```bash
+apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-nginx-conf zabbix-sql-scripts
 ```
 
 3. Установлен Zabbix Server и Zabbix Web Server
@@ -37,6 +37,22 @@ apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-nginx-co
 ### Задание 2
 
 1. Установлен Zabbix Agent на локальную ВМ и на Yandex Cloud
+
+```bash
+wget https://repo.zabbix.com/zabbix/7.4/release/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.4+ubuntu24.04_all.deb  
+```
+
+```bash
+dpkg -i zabbix-release_latest_7.4+ubuntu24.04_all.deb  
+```
+
+```bash
+apt update  
+```
+
+```bash
+apt install zabbix-agent
+```
 
 2. Отредектированы файлы /etc/zabbix/zabbix_agentd.conf
 
