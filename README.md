@@ -9,8 +9,11 @@
 
 2. Команды с официального сайта Zabbix для установки: 
 > wget https://repo.zabbix.com/zabbix/7.4/release/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.4+ubuntu24.04_all.deb
+
 > dpkg -i zabbix-release_latest_7.4+ubuntu24.04_all.deb
+
 > apt update
+
 > apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-nginx-conf zabbix-sql-scriptst
 
 3. Установлен Zabbix Server и Zabbix Web Server
