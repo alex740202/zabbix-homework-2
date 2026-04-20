@@ -8,7 +8,12 @@
 1. Установлен PostgreSQL
 
 2. Команды с официального сайта Zabbix для установки:  
-```bash`<br>`wget https://repo.zabbix.com/zabbix/7.4/release/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.4+ubuntu24.04_all.deb`<br>`dpkg -i zabbix-release_latest_7.4+ubuntu24.04_all.deb`<br>`apt update`<br>`apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-nginx-conf zabbix-sql-scriptst```
+```bash  
+wget https://repo.zabbix.com/zabbix/7.4/release/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.4+ubuntu24.04_all.deb  
+dpkg -i zabbix-release_latest_7.4+ubuntu24.04_all.deb  
+apt update  
+apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-nginx-conf zabbix-sql-scriptst
+```
 
 3. Установлен Zabbix Server и Zabbix Web Server
 
@@ -37,3 +42,7 @@
 ![screen5](./img/screen5.png)
 
 ![screen6](./img/screen6.png)
+
+
+bash`<br>`sudo apt update`<br>`sudo apt upgrade`<br> | <pre lang="bash">sudo apt update
+sudo apt upgrade</pre> |
