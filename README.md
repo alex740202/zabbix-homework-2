@@ -1,6 +1,6 @@
 # Домашнее задание к занятию "Zabbix-2" - Валик Александр
 
-
+ ---
 
 ### Задание 1
 
@@ -13,25 +13,29 @@
 
 ![screen1](./img/screen1.png)
 
-
+ ---
 
 ### Задание 2
 
-1. 
+1. Установлен Zabbix Agent на 2 виртмашины
 
-```bash
-wget https://repo.zabbix.com/zabbix/7.4/release/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.4+ubuntu24.04_all.deb  
+2. Добавлен Zabbix Server в список разрешенных серверов Zabbix Agent
 
-dpkg -i zabbix-release_latest_7.4+ubuntu24.04_all.deb  
+3. Добавлены Zabbix Agent в раздел Configuration > Hosts Zabbix Servera
 
-apt update  
+4. Прикреплен к каждому хосту шаблон Linux by Zabbix Agent
 
-apt install zabbix-agent
-```
+5. В разделе Latest Data начали появляться данные с добавленных агентов
 
-2. 
+ ---
 
-3. 
+### Задание 3
+
+1. В настройках каждого хоста в разделе Templates прикрепите к этому хосту ваш шаблон
+
+2. Так же к каждому хосту привяжите шаблон Linux by Zabbix Agent
+
+3. Проверьте что в раздел Latest Data начали поступать необходимые данные из вашего шаблона
 
 ![screen2](./img/screen2.png)
 
