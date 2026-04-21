@@ -1,37 +1,18 @@
-# Домашнее задание к занятию "Zabbix" - Валик Александр
+# Домашнее задание к занятию "Zabbix-2" - Валик Александр
 
 
 
 ### Задание 1
 
 
-1. Установлен PostgreSQL
+1. В веб-интерфейсе Zabbix Servera в разделе Templates создан новый шаблон "Задание 1"
 
-2. Команды с официального сайта Zabbix для установки:  
-```bash
-wget https://repo.zabbix.com/zabbix/7.4/release/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.4+ubuntu24.04_all.deb  
-```
+2. В шаблоне "Задание 1" создан Item, который будет собирать информацию об загрузке CPU в процентах  
 
-```bash
-dpkg -i zabbix-release_latest_7.4+ubuntu24.04_all.deb  
-```
-
-```bash
-apt update  
-```
-
-```bash
-apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-nginx-conf zabbix-sql-scripts
-```
-
-3. Установлен Zabbix Server и Zabbix Web Server
+3. В шаблоне "Задание 1" создан Item, который будет собирать информацию об загрузке RAM в процентах
 
 ![screen1](./img/screen1.png)
 
-    git clone
-    git add
-    git commit
-    git push
 
 
 ### Задание 2
