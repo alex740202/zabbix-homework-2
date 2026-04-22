@@ -1,9 +1,8 @@
-# Домашнее задание к занятию "Zabbix-2" - Валик Александр
+# Домашнее задание к занятию "Система мониторинга Zabbix. Часть 2" - Валик Александр
 
- ---
+
 
 ### Задание 1
-
 
 1. В веб-интерфейсе Zabbix Servera в разделе Templates создан новый шаблон "Задание 1"
 
@@ -21,7 +20,7 @@
 
 2. Добавлен Zabbix Server в список разрешенных серверов Zabbix Agent
 
-3. Добавлены Zabbix Agent в раздел Configuration > Hosts Zabbix Servera
+3. Добавлены Zabbix Agent в раздел Configuration > Hosts Zabbix Server
 
 4. Прикреплен к каждому хосту шаблон Linux by Zabbix Agent
 
@@ -31,18 +30,24 @@
 
 ### Задание 3
 
-1. В настройках каждого хоста в разделе Templates прикрепите к этому хосту ваш шаблон
+1. К каждому хосту прикреплен шаблон "Задание 1"
 
-2. Так же к каждому хосту привяжите шаблон Linux by Zabbix Agent
+2. К каждому хосту добавлен шаблон Linux by Zabbix Agent
 
-3. Проверьте что в раздел Latest Data начали поступать необходимые данные из вашего шаблона
+3. В разделе Latest Data начали поступать данные из шаблона "Задание 1"
 
 ![screen2](./img/screen2.png)
+
+ ---
+
+### Задание 4
+
+1. 
+
+2.
+
+3.
 
 ![screen3](./img/screen3.png)
 
 ![screen4](./img/screen4.png)
-
-![screen5](./img/screen5.png)
-
-![screen6](./img/screen6.png)
